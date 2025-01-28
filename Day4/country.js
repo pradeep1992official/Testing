@@ -7,7 +7,7 @@ console.log("Displaying countries with population > 140000000")
 
 list.onload = function () {                                                        //Onload functions
     var count = 0;
-    if((list.status >= 200 && list.status<300)) {
+    if((list.status > 200)) {
         console.log("Error");                                                       //if onload failure, ouputs error
     } else {
         var arrCountry = JSON.parse(list.responseText);               //JSON text will be parsed and saved in arrCountry Object
