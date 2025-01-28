@@ -8,12 +8,12 @@ var arrObj2 = Object.keys(obj2);
 if(arrObj1.length == arrObj2.length) {
     console.log("Same Length");
 } else {
-    console.log("The keys of the objects are not equal");
+    console.log("The objects are not equal");
 }
 var condition=0;
 for(var i=0; i<arrObj1.length;i++) {
     if(obj1[arrObj1[i]] == obj2[arrObj1[i]]) {
-            condition += 1;
+            condition++;
     }
 }
 
