@@ -31,4 +31,4 @@ function concateStrings(...words) { //Rest Operator takes n number of parameters
 }
 
 
-console.log(concateStrings("Pradeep","Srinivasan",". Mr")); 
+console.log(concateStrings("Pradeep","Srinivasan","."," Mr")); 
