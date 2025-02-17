@@ -1,0 +1,22 @@
+.div {
+  background-color: blue;
+  color: antiquewhite;
+}
+
+#final {
+  background-color: brown;
+  color: burlywood;
+}
+* {
+  font-family: "Oswald";
+  background-color: wheat;
+}
+span {
+  background-color: brown;
+  color: aliceblue;
+}
+
+#DD {
+  display: none;
+  /* On this command the span with ID DD is not rendered, as render tree uses both CSS and HTML Tree for render  */
+}

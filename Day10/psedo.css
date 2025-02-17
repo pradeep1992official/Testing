@@ -1,0 +1,34 @@
+a:link {
+    color : greenyellow;
+}
+
+a:hover {
+    color : orchid;
+}
+
+a:visited {
+    color:green;
+}
+
+button{
+    background-color: #D1F8EF;
+}
+
+button:hover{
+    background-color: #578FCA; 
+}
+
+button:active {
+    background-color: #3674B5;
+}
+
+#fName:focus{
+    outline: #3674B5 2px ;
+    outline-style:double;
+}
+
+h1{
+    padding:2%;
+    border:#3674B5 solid 20px;
+    margin: 20px;;
+}

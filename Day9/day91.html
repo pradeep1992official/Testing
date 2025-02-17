@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 9 - Learning HTML and CSS</title>
+  </head>
+  <body
+    align="center"
+    style="background-color: #578fca; font-family: Oswald; color: #d1f8ef"
+  >
+    <h1>Day 9 - Learning HTML and CSS</h1>
+    <h2>Form Creation</h2>
+    <!-- <hr /> -->
+    <center>
+      <font face="Oswald" color="#3674B5">
+        <form action="Quiz.html" method="post">
+          <div class="form" style="background-color: #a1e3f9; width: 800px">
+            <h3><br />School Admission Form</h3>
+            <div class="input" style="background-color: #d1f8ef; width: 600px">
+              <br />
+              <table>
+                <tr>
+                  <td>
+                    <label for="Fname">Student's Name*</label>
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      value="First"
+                      id="Fname"
+                      required
+                      style="background-color: whitesmoke"
+                    />
+                  </td>
+                  <td>
+                    <input type="text" value="Last" id="Lname" required />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="Class">Class you want to apply for*</label>
+                  </td>
+                  <td colspan="2">
+                    <input type="text" size="46" id="Class" required />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="DoB">Student's DoB*</label>
+                  </td>
+                  <td colspan="2">
+                    <input type="date" id="DoB" width="45" required />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="ParentsFName">Parent/Guardian Name*</label>
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      id="ParentsFName"
+                      value="First"
+                      required
+                    />
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      id="ParentsLName"
+                      value="Last"
+                      required
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="4">
+                    <label for="Address">Current Address*</label>
+                  </td>
+                  <td colspan="2">
+                    <input
+                      type="text"
+                      value="Street Address"
+                      id="Address"
+                      size="46"
+                      required
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <input
+                      type="text"
+                      value="Street Address Line 2"
+                      id="Address"
+                      size="46"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="text" value="City" id="Address" required />
+                  </td>
+                  <td>
+                    <input type="text" value="Region" id="Address" required />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="text" value="Postal" id="Address" required />
+                  </td>
+                  <td>
+                    <input type="text" value="Country" id="Address" required />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="Phone">Phone*</label>
+                  </td>
+                  <td colspan="2">
+                    <input
+                      type="text"
+                      value="### ### ####"
+                      id="Phone"
+                      required
+                      size="46"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="email">Email*</label>
+                  </td>
+                  <td colspan="2">
+                    <input
+                      type="email"
+                      value=""
+                      id="email"
+                      required
+                      size="46"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>
+                    <button type="submit">SEND APPLICATION</button>
+                  </td>
+                  <td>
+                    <button type="reset">Reset</button>
+                  </td>
+                </tr>
+              </table>
+              <br /><br />
+            </div>
+            <br />
+            <br />
+            <br />
+          </div>
+          <!-- <hr /> -->
+        </form>
+      </font>
+      <br />
+    </center>
+  </body>
+</html>
