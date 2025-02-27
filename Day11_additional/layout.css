@@ -1,0 +1,31 @@
+section {
+  border: 2px solid brown;
+  display: flex;
+  flex-direction:row;
+  width : 50%;
+  height : 250px;
+  justify-content:center;
+  /* align-items: flex-end; */
+  gap  : 20px;
+  align-content:sp;
+}
+
+div {
+  border: 1px, solid orange;
+  padding: 5px;
+}
+
+.red {
+  background-color: RED;
+  height: 20px;
+}
+
+.green {
+  background-color: green;
+  height: 50px;
+}
+
+.blue {
+  background-color: blue;
+  height: 15px;
+}

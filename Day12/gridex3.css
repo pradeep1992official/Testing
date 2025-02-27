@@ -1,0 +1,33 @@
+body > * {
+  border : 2px black solid;
+  border-radius: 15px;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-areas: 
+  "top top"
+  "middle middle-right"
+  "bottom bottom";
+  gap : 10px
+}
+
+header {
+  /* grid-column: 1/3; */
+  grid-area: top;
+}
+
+aside {
+  grid-area: middle;
+}
+
+main {
+  grid-area: middle-right;
+}
+
+footer {
+  /* grid-column: 1/3; */
+  grid-area: bottom;
+}

@@ -1,0 +1,36 @@
+body {
+  background-color: cadetblue;
+}
+h1, h6 {
+  font-family: "Oswald";
+  color:antiquewhite;
+  text-align: center;
+}
+
+.container {
+  background-color: lightblue;
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  gap : 10px;
+  justify-content: center;
+  align-content: space-around;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.box {
+  background-color: aquamarine;
+  border: 2px black solid;
+  text-align: center;
+  align-content: center;
+  border-radius: 10px;
+  color:brown;
+  font-family: "Oswald";
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
