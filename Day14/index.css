@@ -1,0 +1,56 @@
+.alignment {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "h12 h12 h12"
+    "email email email"
+    "blue red yellow"
+    "alert alert alert";
+  align-items: center;
+  justify-content: center;
+  width: 70vw;
+  height: 40vh;
+  /* background-color: aliceblue; */
+}
+
+body {
+  font-family: "Oswald";
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: space-between;
+  height: 100vh;
+}
+
+h1 {
+  grid-area: h12;
+  align-items: CENTER;
+  justify-content: center;
+  color: blue;
+}
+
+.input-group {
+  grid-area: email;
+}
+
+.btn-primary {
+  grid-area: blue;
+  width: 99%;
+}
+
+.btn-danger {
+  grid-area: red;
+  width: 99%;
+}
+
+.btn-warning {
+  grid-area: yellow;
+  width: 99%;
+}
+
+.liveAlertPlaceholder {
+  grid-area: alert;
+}
