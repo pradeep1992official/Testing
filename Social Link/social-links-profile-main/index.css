@@ -1,0 +1,73 @@
+body {
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter";
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  /* width: 70%; */
+}
+
+.container {
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 300px;
+}
+
+.place {
+  color: hsl(75, 94%, 57%);
+  padding-bottom: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.button {
+  background-color: hsl(0, 0%, 20%);
+  padding: 14px;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 8px;
+  font-weight: 400;
+  
+  /* gap : 10px;; */
+}
+
+.name {
+  font-weight: 400;
+  font-size: 1.3rem;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.hobby {
+  padding-bottom: 20px;
+  font-size: 12px;
+}
+
+img{
+  width: 70px;
+  border-radius: 50%;
+}
+
+.button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+  font-weight: 600;
+}
+
+/* @media(max-width:400px) {
+  .container {
+  width: 80%
+  }
+} */

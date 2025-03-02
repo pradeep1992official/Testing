@@ -1,0 +1,78 @@
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 16px;
+  color: hsl(0, 0%, 7%);
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  width: 80vw;
+  border: 2px solid black;
+  border-bottom: 10px solid black;
+  border-right: 10px solid black;
+  border-radius: 25px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  max-height: 500px;
+}
+
+.intro {
+  width: 98%;
+  align-self: center;
+  border-radius: 20px;
+}
+
+.activity {
+  background-color: hsl(47, 88%, 63%);
+  font-weight: 800;
+  padding: 8px;
+  border-radius: 5px;
+  width: 70px;
+  text-align: center;
+}
+
+.date {
+  font-size: 16px;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.para {
+color : hsl(0, 0%, 42%);
+}
+
+.greg {
+  width : 40px
+}
+
+.name {
+  /* height : 32px; */
+  font-weight: 800;
+  /* text-align: center; */
+  justify-content: center;
+  align-self: center;
+}
+
+.img_cont{
+  display: grid;
+  grid-template-columns: 50px 3fr;
+  grid-template-rows: 1fr;
+}
+
+.title:hover{
+  color: hsl(47, 88%, 63%);
+}
