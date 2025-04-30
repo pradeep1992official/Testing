@@ -1,0 +1,36 @@
+CRUD Operations with HTML, CSS, JS and JSONPlaceholder
+
+CRUD = Create Read Update Delete
+
+Objectives:
+1. Understand CRUD Operations
+2. Learn to use HTML and CSS to build a UI Interface
+3. Practice Javascript to understand DOM Manipulation and interactivity
+4. Utilize MOCK API to perform CRUD Operations 
+
+Tools Required :
+1. VSCode
+2. Git
+3. HTML
+4. CSS
+5. JS
+6. JSONPlaceholder
+7. Bootstrap
+
+#Introduction to CRUD
+    create= Add new data
+    read = Retrieve data
+    Update = Modify exisitng data
+    Delete - Remove exisiting data
+
+
+
+#Setting up the Project
+    Create index.HTML
+    create app.JS
+    Basic HTML styling with bootstrap
+
+
+#Writing HTML   
+    Heading
+    A form for entering user details

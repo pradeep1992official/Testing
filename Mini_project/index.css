@@ -1,0 +1,5 @@
+/* CSS to make table row black on hover */
+.hovered ::hover {
+    background-color: black;
+    color: white; /* Optional: Change text color for better visibility */
+}
